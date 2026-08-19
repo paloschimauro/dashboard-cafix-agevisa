@@ -316,10 +316,19 @@
       outline-offset: 3px;
     }
 
-    .card.animais { --accent: var(--azul); }
-    .card.lta { --accent: var(--verde); }
-    .card.sifilis { --accent: var(--vermelho); }
-    .card.aids { --accent: var(--laranja); }
+    .card.animais { --accent: var(--amarelo); }
+    .card.lta { --accent: var(--azul); }
+    .card.sifilis { --accent: var(--verde); }
+    .card.aids { --accent: var(--vermelho); }
+
+    /* Ajuste de contraste para o botão amarelo */
+    .card.animais .card-link {
+      color: var(--grafite);
+    }
+
+    .card.animais .card-index {
+      color: #6B5B00;
+    }
 
     footer {
       background: var(--grafite);
@@ -490,7 +499,7 @@
 
     <div class="hero-title">
       <h1>DASHBOARD EPIDEMIOLÓGICO</h1>
-      <p>Portal de acesso aos painéis epidemiológicos desenvolvidos para apoio à vigilância em saúde no Estado de Rondônia.</p>
+      
     </div>
   </header>
 
